@@ -1,0 +1,74 @@
+.backG{
+    border-radius: 50px;
+    height: 690px;
+    background-color: rgb(196, 196, 196);
+    /* opacity: 0.2; */
+    
+}
+
+.leftBlue{
+   width: 200px;
+   height: 690px;
+   background-color: royalblue; 
+   margin-left: -20px;
+   border-top-left-radius: 50px;
+   border-bottom-left-radius: 50px;
+}
+
+.innerBox{
+    height: 500px;
+    width: 900px;
+    background-color: #FFF;
+    margin-top: 50px;
+    margin-left: 100px  ;
+    
+}
+
+.boxVideo{
+    height:500px;
+    width: 450px;
+    
+    background-image:url(img2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 0px;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .backG{
+        border-radius: 50px;
+        height: 690px;
+        background-color: rgb(196, 196, 196);
+        /* opacity: 0.2; */
+        
+    }
+    
+    .leftBlue{
+       width: 150px;
+       height: 690px;
+       
+    }
+    
+    .innerBox{
+        height: 500px;
+        width: 350px;
+        background-color:  rgb(196, 196, 196);
+        margin-top: 2   0px;
+        margin-left: 0px;
+        
+    }
+    
+    .boxVideo{
+        height:250px;
+        width: 345px;
+        background-color: grey;
+        background-image:url(img2.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 18px;
+    }
+    
+    
+}
