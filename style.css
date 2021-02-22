@@ -38,7 +38,7 @@
 @media all and (max-width: 560px) {
     .backG{
         border-radius: 50px;
-        height: 690px;
+        height: 756px;
         background-color: rgb(196, 196, 196);
         /* opacity: 0.2; */
         
@@ -46,7 +46,7 @@
     
     .leftBlue{
        width: 150px;
-       height: 690px;
+       height: 756px;
        
     }
     
@@ -61,13 +61,20 @@
     
     .boxVideo{
         height:250px;
-        width: 345px;
-        background-color: grey;
+        width: 340px;
+        /* background-color: grey; */
         background-image:url(img2.jpg);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
         margin-left: 18px;
+    }
+
+    .boxForm{
+        height: 400px;
+        width: 500px;
+        margin-bottom: 50px;
+        border-radius: 10px;
     }
     
     
